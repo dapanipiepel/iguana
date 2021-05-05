@@ -1,0 +1,104 @@
+body *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 7px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+.headerimg{
+    background-image: url("https://i.ibb.co/hZZgFpv/bg-header.png");
+    background-repeat: no-repeat;
+    height: 40vw;
+    background-size:cover;
+}
+#iguanadesc{
+    background: black;
+    padding-top: 30px;
+}
+.articletxt p{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+#iguanadesc div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+    box-sizing: border-box;
+    padding: 30px;
+    color: white;
+}
+.caracteristicas{
+    background-color: #1e1a13;
+    text-align: center;
+    padding: 40px 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+.caracteristicas h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+.caractlist{
+    width: 100%;
+    margin-top: 50px;   
+}
+.caractlist h4, i{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.item{
+    display: inline-block;
+    width: 33%;
+    font-size: 25px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+#iguanitas{
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+#iguanitas div{
+    width: 24vw;
+    height: 24vh;
+    display: inline-block;
+    margin: 50px 30px;
+
+}
+
+#iguanitas .iguana1{
+    background-image: url("https://i.ibb.co/bbw3vgz/iguana-2.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#iguanitas .iguana2{
+    background-image: url("https://i.ibb.co/9gm7MLJ/iguana-3.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#iguanitas .iguana3{
+    background-image: url("https://i.ibb.co/qBnBfRf/iguana-4.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#footer{
+    text-align: center;
+    color: white;
+    background-color: #1e1a13;
+    padding: 40px 0px;
+    font-family: 'Raleway', sans-serif;
+}
